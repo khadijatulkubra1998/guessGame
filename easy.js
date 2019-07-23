@@ -1,5 +1,6 @@
 
 var answer = parseInt(Math.random() * 100);
+var wrongGuess = 0;
 
 function guessGame() {
     var userNumber = parseInt(document.querySelector("input").value);
