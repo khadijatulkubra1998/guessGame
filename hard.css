@@ -6,6 +6,9 @@ body {
     background-size: cover;
     color: aliceblue;
     margin-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -27,7 +30,7 @@ input {
     font-size: 20px;
     outline: none;
     display: block;
-    margin-left: 480px;
+    margin: auto;
     border-radius: 10px;
 }
 
@@ -43,7 +46,7 @@ button {
     letter-spacing: 5px;
     border-radius: 5px;
 }
-@media screen and (min-width: 320px) and (max-width: 414px) {
+@media screen and (min-width: 320px) and (max-width: 420px) {
     h1 {
         font-size: 30px;
     }
@@ -51,7 +54,7 @@ button {
         font-size: 20px;
     }
     input {
-        margin-left: 50px;
+        margin: auto;
         font-size: 8px;
         padding-right: 50px;
         padding-left: 50px;
@@ -61,13 +64,13 @@ button {
         padding: 10px;
     }
 }
-@media screen and (min-width: 415px) and (max-width: 805px) {
+@media screen and (min-width: 421px) and (max-width: 805px) {
     input {
-        margin-left: 250px;
+        margin: auto;
     }
 }
 @media screen and (min-width: 806px) and (max-width: 1024px) {
     input{
-        margin-left: 350px;
+        margin: auto;
     }
 }
