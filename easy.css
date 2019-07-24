@@ -1,6 +1,5 @@
 body {
     text-align: center;
-    margin: 50px;
     background-image: url(image/unnamed.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,6 +8,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 700px;
 }
 
 h1 {
@@ -16,6 +16,7 @@ h1 {
     font-family: 'Dancing Script', cursive;
     text-shadow: 2px 2px 2px black;
 }
+
 h3 {
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
@@ -30,12 +31,12 @@ input {
     font-size: 20px;
     outline: none;
     display: block;
-    margin: auto;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 button {
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -46,6 +47,7 @@ button {
     letter-spacing: 5px;
     border-radius: 5px;
 }
+
 @media screen and (min-width: 320px) and (max-width: 420px) {
     h1 {
         font-size: 30px;
@@ -54,7 +56,6 @@ button {
         font-size: 20px;
     }
     input {
-        margin: auto;
         font-size: 8px;
         padding-right: 50px;
         padding-left: 50px;
@@ -62,15 +63,5 @@ button {
     button {
         font-size: 10px;
         padding: 10px;
-    }
-}
-@media screen and (min-width: 421px) and (max-width: 805px) {
-    input {
-        margin: auto;
-    }
-}
-@media screen and (min-width: 806px) and (max-width: 1024px) {
-    input{
-        margin: auto;
     }
 }
