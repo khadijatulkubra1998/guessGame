@@ -5,6 +5,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    height: 650px;
+    margin-top: 50px;
 }
 
 h1 {
